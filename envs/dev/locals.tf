@@ -1,5 +1,5 @@
 locals {
-  env            = "staging"
+  env            = "dev"
   location       = "northeurope"
   name_prefix    = "app-${local.env}"
   admin_username = "azureuser"
